@@ -5,10 +5,7 @@
 # the according to user's input it calculates the user's monthly bill for selected plan. 
 # User then is asked how many minutes of usage are expected from the package
 # and lastly it prints the user's selected package along with monthly billing amount. 
-#
-# Instructor: Prof. Mohammad Morovati 
-#
-# Class: CIS2531 Net: 02 Assignment: #3
+
 # Date: 6/22/2022
 
 
