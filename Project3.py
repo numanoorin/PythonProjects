@@ -13,10 +13,10 @@ num_rows = 10
 
 k = 0
 for i in range(1, num_rows + 1): 
-    for j in range (1, (num_rows - i) + 1): #prints symbol (+) in ascending order
+    for j in range (1, (num_rows - i) + 1): #prints symbol (+) in ascending order. 
         print(end = " ")          
     while k != (2 * i - 1):
-        print("+", end = "") #this prints the symbol used in pattern
+        print("+", end = "") #this prints the symbol used in pattern. 
         k = k + 1
     k = 0   
     print()  
@@ -30,7 +30,7 @@ for i in range(1, num_rows):
     for j in range (1, k):
         print(end = " ") 
     k = k + 1	  
-    while m <= (2 * (num_rows - i) - 1): #prints symbol (+) in descensding order
+    while m <= (2 * (num_rows - i) - 1): #prints symbol (+) in descending order. 
         print("+", end = "") 
         m = m + 1
     m = 1	
